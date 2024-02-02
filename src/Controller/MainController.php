@@ -16,6 +16,7 @@ class MainController extends AbstractController
             'prenoms' => $prenoms,
             // 'prenom' => 'Jonathan',
             // 'affichePrenom' => true
+            'path' => '          '
         ]);
     }
 
@@ -40,3 +41,4 @@ class MainController extends AbstractController
 
 
 }
+ 

@@ -8,6 +8,12 @@
       <h1> {{ prenom }} </h1>
     {% endfor %}
     
+
+
+    <p>Aujourd'hui on est le : {{ "now" | date("d/m/Y") }} </p>
+    <img src="{{ asset('assets/images/') ~ path | defaultImage }}" alt="">
+
+
     {# {{ dump(prenoms) }} méthode dump() affiche dans la page web le contenu d'une variable #}
 
     {# {% if affichePrenom %}
